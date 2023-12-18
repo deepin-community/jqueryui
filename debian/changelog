@@ -1,3 +1,25 @@
+jqueryui (1.13.2+dfsg-1) unstable; urgency=medium
+
+  * New upstream version 1.13.2+dfsg
+    - Fixes CVE-2022-31160 (Closes: #1015982)
+
+ -- Paul Gevers <elbrus@debian.org>  Thu, 28 Jul 2022 08:05:07 +0200
+
+jqueryui (1.13.1+dfsg-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ lintian-brush ]
+  * Remove 1 obsolete maintscript entry.
+
+  [ Yadd ]
+  * New upstream version 1.13.1+dfsg
+  * Unfuzz patches
+  * Replace embedded build module by build dependency
+  * Add lintian overrides
+
+ -- Yadd <yadd@debian.org>  Fri, 18 Feb 2022 12:31:10 +0100
+
 jqueryui (1.13.0+dfsg-1) unstable; urgency=medium
 
   * Team upload
