@@ -3,6 +3,7 @@ Upstream-Name: jQueryUI
 Source: http://jqueryui.com/
 Comment: Source for embedded jquery is missing, so stripping that.
 Files-Excluded:
+ dist
  external
  ui/i18n/*.min.js
 
@@ -204,12 +205,8 @@ Comment: https://en.wikipedia.org/wiki/File:Tower_bridge_London_Twilight_-_Novem
 Files: debian/*
 Copyright: (c) 2009, Walter Cruz <walter@waltercruz.com>
  2016 Paul Gevers <elbrus@debian.org>
-  2021 Yadd <yadd@debian.org>
+ 2021-2022 Yadd <yadd@debian.org>
 License: GPL-2 or Expat
-
-Files: debian/build_modules/grunt-contrib-requirejs/*
-Copyright: 2016 Tyler Kellen, contributors
-License: Expat
 
 License: GPL-2
  On Debian systems the full text of the GNU General Public License can be found

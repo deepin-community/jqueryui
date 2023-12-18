@@ -11,7 +11,7 @@ Build-Depends: debhelper-compat (= 13)
  , node-jquery
  , node-load-grunt-tasks
  , node-requirejs
- , nodejs
+ , node-grunt-contrib-requirejs
  , uglifyjs
  , yui-compressor
 Standards-Version: 4.6.0
